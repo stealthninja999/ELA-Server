@@ -1,0 +1,3 @@
+CLIENT_KEY=Keymaster
+SHARED_SECRET=Gatekeeper
+TRUST_PROXY=true
