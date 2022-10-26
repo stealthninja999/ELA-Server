@@ -1,0 +1,3 @@
+[submodule "ELA-Client"]
+	path = ELA-Client
+	url = https://github.com/TingWang81/ELA-Client.git
