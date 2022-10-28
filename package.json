@@ -1,0 +1,19 @@
+{
+    "name": "simple-lti-example",
+    "version": "1.0.0",
+    "description": "A simple implementation of the IMS LTI 1.0 standard",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Nathan H. Bean",
+    "license": "MIT",
+    "dependencies": {
+      "axios": "^1.0.0",
+      "body-parser": "^1.20.0",
+      "dotenv": "^16.0.3",
+      "express": "^4.18.1",
+      "ims-lti": "^3.0.2",
+      "oauth1-signature": "^1.0.5"
+    }
+  }
