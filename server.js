@@ -5,7 +5,7 @@
 require('dotenv').config();
 
 // Create the application
-const app = require('./src/app');
+const app = require('./Authentication/app');
 
 // Start listening for http requests
 const port = process.env.PORT || 3000; 

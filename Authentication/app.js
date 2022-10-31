@@ -26,6 +26,6 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 // For this app we have a single route that responds to
 // LTI launch requests. 
-app.post('/', require('./middleware/verify-lti-launch'), require('../ELA-Client/src/App.js'));
+app.post('/', require('./verify-lti-launch'), require('../ELA-Client/src/App.js'));
 
 module.exports = app;
