@@ -12,6 +12,9 @@ module.exports = async function launch(req, res) {
   // these to the console so you can review them:
   console.log(req.body);
 
+  res.sendFile('public/index.html');
+
+  /*
   // Of especial importance for passing grades 
   // back to the LMS are the lis_result_sourcedid which 
   // uniquely identifies the student, assignment, and
@@ -95,4 +98,6 @@ module.exports = async function launch(req, res) {
     console.error('foobar', err);
     res.status(500).send("Server Error");
   }
+  */
+
 }
