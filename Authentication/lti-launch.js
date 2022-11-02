@@ -1,5 +1,6 @@
 const axios = require('axios');
 const OAuth1Signature = require('oauth1-signature');
+const path = require('path');
 
 /** @module lti-launch
  * Handles an incoming LTI Launch Request
@@ -12,7 +13,8 @@ module.exports = async function launch(req, res) {
   // these to the console so you can review them:
   console.log(req.body);
 
-  res.sendFile('public/index.html');
+  
+  res.sendFile(path.resolve(__dirname + '/../public/index.html'));
 
   /*
   // Of especial importance for passing grades 
