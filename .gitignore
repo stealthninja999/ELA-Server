@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# public files (setting up a symbolic link to different git repo
+public/

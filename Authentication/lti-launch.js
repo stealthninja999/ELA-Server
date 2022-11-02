@@ -12,7 +12,6 @@ module.exports = async function launch(req, res) {
   // custom variables added by the LMS. We'll dump
   // these to the console so you can review them:
   console.log(req.body);
-
   
   res.sendFile(path.resolve(__dirname + '/../public/index.html'));
 
