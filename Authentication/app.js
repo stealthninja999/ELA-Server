@@ -24,11 +24,11 @@ if(trustProxy) {
 // request bodies
 app.use(bodyParser.urlencoded({extended: false}));
 
-//use the public file to be able to serve different web pages
-app.use(express.static('public'));
-
 // For this app we have a single route that responds to
 // LTI launch requests. 
 app.post('/', require('./verify-lti-launch'), require('./lti-launch'));
+
+//use the public file to be able to serve different web pages
+app.use(express.static('public'));
 
 module.exports = app;

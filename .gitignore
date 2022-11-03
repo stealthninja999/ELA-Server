@@ -104,7 +104,7 @@ dist
 .tern-port
 
 # public files (setting up a symbolic link to different git repo
-public/
+public
 
 # ds_store since SOME of us are programming on a Mac
 .DS_Store
